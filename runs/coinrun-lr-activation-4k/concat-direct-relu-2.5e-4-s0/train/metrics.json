@@ -1,0 +1,411 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "train",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/train",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/model.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.2243624054826796,
+  "rollout_mean_return": 5.0,
+  "rollout_episodes": [
+    {
+      "level": 192,
+      "return": 0.0
+    },
+    {
+      "level": 86,
+      "return": 10.0
+    },
+    {
+      "level": 124,
+      "return": 0.0
+    },
+    {
+      "level": 119,
+      "return": 10.0
+    },
+    {
+      "level": 97,
+      "return": 10.0
+    },
+    {
+      "level": 13,
+      "return": 10.0
+    },
+    {
+      "level": 13,
+      "return": 10.0
+    },
+    {
+      "level": 96,
+      "return": 10.0
+    },
+    {
+      "level": 66,
+      "return": 0.0
+    },
+    {
+      "level": 140,
+      "return": 10.0
+    },
+    {
+      "level": 150,
+      "return": 10.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 14,
+      "return": 10.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 75,
+      "return": 10.0
+    },
+    {
+      "level": 142,
+      "return": 0.0
+    },
+    {
+      "level": 166,
+      "return": 10.0
+    },
+    {
+      "level": 107,
+      "return": 0.0
+    },
+    {
+      "level": 100,
+      "return": 0.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 61,
+      "return": 10.0
+    },
+    {
+      "level": 14,
+      "return": 10.0
+    },
+    {
+      "level": 143,
+      "return": 0.0
+    },
+    {
+      "level": 5,
+      "return": 0.0
+    },
+    {
+      "level": 38,
+      "return": 10.0
+    },
+    {
+      "level": 46,
+      "return": 0.0
+    },
+    {
+      "level": 185,
+      "return": 10.0
+    },
+    {
+      "level": 107,
+      "return": 0.0
+    },
+    {
+      "level": 93,
+      "return": 10.0
+    },
+    {
+      "level": 99,
+      "return": 10.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 147,
+      "return": 0.0
+    },
+    {
+      "level": 151,
+      "return": 0.0
+    },
+    {
+      "level": 135,
+      "return": 10.0
+    },
+    {
+      "level": 102,
+      "return": 0.0
+    },
+    {
+      "level": 80,
+      "return": 10.0
+    },
+    {
+      "level": 124,
+      "return": 0.0
+    },
+    {
+      "level": 50,
+      "return": 0.0
+    },
+    {
+      "level": 53,
+      "return": 10.0
+    },
+    {
+      "level": 88,
+      "return": 10.0
+    },
+    {
+      "level": 11,
+      "return": 0.0
+    },
+    {
+      "level": 144,
+      "return": 0.0
+    },
+    {
+      "level": 114,
+      "return": 0.0
+    },
+    {
+      "level": 94,
+      "return": 10.0
+    },
+    {
+      "level": 174,
+      "return": 0.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 162,
+      "return": 0.0
+    },
+    {
+      "level": 86,
+      "return": 10.0
+    },
+    {
+      "level": 77,
+      "return": 10.0
+    },
+    {
+      "level": 90,
+      "return": 10.0
+    },
+    {
+      "level": 60,
+      "return": 10.0
+    },
+    {
+      "level": 80,
+      "return": 10.0
+    },
+    {
+      "level": 111,
+      "return": 0.0
+    },
+    {
+      "level": 75,
+      "return": 10.0
+    },
+    {
+      "level": 103,
+      "return": 10.0
+    },
+    {
+      "level": 187,
+      "return": 0.0
+    },
+    {
+      "level": 18,
+      "return": 0.0
+    },
+    {
+      "level": 53,
+      "return": 10.0
+    },
+    {
+      "level": 64,
+      "return": 0.0
+    },
+    {
+      "level": 46,
+      "return": 0.0
+    },
+    {
+      "level": 101,
+      "return": 0.0
+    },
+    {
+      "level": 86,
+      "return": 10.0
+    },
+    {
+      "level": 116,
+      "return": 0.0
+    },
+    {
+      "level": 157,
+      "return": 0.0
+    },
+    {
+      "level": 87,
+      "return": 0.0
+    },
+    {
+      "level": 22,
+      "return": 0.0
+    },
+    {
+      "level": 192,
+      "return": 0.0
+    },
+    {
+      "level": 93,
+      "return": 10.0
+    },
+    {
+      "level": 31,
+      "return": 0.0
+    },
+    {
+      "level": 181,
+      "return": 10.0
+    },
+    {
+      "level": 180,
+      "return": 0.0
+    },
+    {
+      "level": 178,
+      "return": 0.0
+    },
+    {
+      "level": 128,
+      "return": 10.0
+    },
+    {
+      "level": 126,
+      "return": 10.0
+    },
+    {
+      "level": 132,
+      "return": 10.0
+    },
+    {
+      "level": 22,
+      "return": 0.0
+    },
+    {
+      "level": 175,
+      "return": 10.0
+    },
+    {
+      "level": 193,
+      "return": 10.0
+    },
+    {
+      "level": 3,
+      "return": 10.0
+    },
+    {
+      "level": 101,
+      "return": 0.0
+    },
+    {
+      "level": 110,
+      "return": 10.0
+    },
+    {
+      "level": 23,
+      "return": 10.0
+    },
+    {
+      "level": 160,
+      "return": 10.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 64,
+      "return": 0.0
+    },
+    {
+      "level": 30,
+      "return": 0.0
+    },
+    {
+      "level": 178,
+      "return": 0.0
+    },
+    {
+      "level": 7,
+      "return": 0.0
+    },
+    {
+      "level": 152,
+      "return": 10.0
+    },
+    {
+      "level": 23,
+      "return": 10.0
+    },
+    {
+      "level": 105,
+      "return": 10.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 130,
+      "return": 0.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 95,
+      "return": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1255 @@
+step=100 loss=2.1416
+step=200 loss=2.2267
+step=300 loss=2.3870
+step=400 loss=2.0356
+step=500 loss=2.4663
+step=600 loss=2.4457
+step=700 loss=2.3353
+step=800 loss=2.2096
+step=900 loss=2.2271
+step=1000 loss=2.4710
+step=1100 loss=2.4033
+step=1200 loss=2.0941
+step=1300 loss=2.3261
+step=1400 loss=2.2653
+step=1500 loss=2.2210
+step=1600 loss=2.4413
+step=1700 loss=1.9564
+step=1800 loss=2.1720
+step=1900 loss=1.9772
+step=2000 loss=1.8173
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "sum",
+    "groups": 1,
+    "seed": 1,
+    "steps": 2000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "val",
+    "eval_seed": 777,
+    "device": "cpu",
+    "output": "runs/coinrun-bc-3seed/sum-s1",
+    "checkpoint": null
+  },
+  "params": 661839,
+  "mean_train_ce": 2.2491443157196045,
+  "train_seconds": 273.9541013035923,
+  "heldout_episode_ce": 2.190156594850123,
+  "rollout_mean_return": 5.729166666666667,
+  "rollout_episodes": [
+    {
+      "level": 220,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 245,
+      "return": 0.0
+    },
+    {
+      "level": 227,
+      "return": 10.0
+    },
+    {
+      "level": 208,
+      "return": 10.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 232,
+      "return": 10.0
+    },
+    {
+      "level": 248,
+      "return": 0.0
+    },
+    {
+      "level": 219,
+      "return": 10.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 231,
+      "return": 10.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 227,
+      "return": 10.0
+    },
+    {
+      "level": 218,
+      "return": 10.0
+    },
+    {
+      "level": 209,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 10.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 227,
+      "return": 10.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 205,
+      "return": 10.0
+    },
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 212,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 10.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 234,
+      "return": 0.0
+    },
+    {
+      "level": 232,
+      "return": 10.0
+    },
+    {
+      "level": 244,
+      "return": 0.0
+    },
+    {
+      "level": 248,
+      "return": 0.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 209,
+      "return": 0.0
+    },
+    {
+      "level": 223,
+      "return": 10.0
+    },
+    {
+      "level": 208,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 226,
+      "return": 10.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 239,
+      "return": 10.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 215,
+      "return": 0.0
+    },
+    {
+      "level": 232,
+      "return": 10.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 239,
+      "return": 10.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 218,
+      "return": 10.0
+    },
+    {
+      "level": 247,
+      "return": 10.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 239,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 239,
+      "return": 10.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 241,
+      "return": 10.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 212,
+      "return": 0.0
+    },
+    {
+      "level": 213,
+      "return": 0.0
+    },
+    {
+      "level": 221,
+      "return": 0.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 208,
+      "return": 10.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 220,
+      "return": 0.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 220,
+      "return": 0.0
+    },
+    {
+      "level": 204,
+      "return": 0.0
+    },
+    {
+      "level": 248,
+      "return": 0.0
+    },
+    {
+      "level": 221,
+      "return": 0.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 205,
+      "return": 10.0
+    },
+    {
+      "level": 221,
+      "return": 0.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    }
+  ]
+}
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "sum",
+    "groups": 1,
+    "seed": 1,
+    "steps": 1000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "train",
+    "eval_seed": 777,
+    "device": "cpu",
+    "output": "runs/coinrun-bc-3seed/sum-s1/train",
+    "checkpoint": "runs/coinrun-bc-3seed/sum-s1/model.pt"
+  },
+  "params": 661839,
+  "heldout_episode_ce": 2.190156594850123,
+  "rollout_mean_return": 8.020833333333334,
+  "rollout_episodes": [
+    {
+      "level": 170,
+      "return": 10.0
+    },
+    {
+      "level": 56,
+      "return": 10.0
+    },
+    {
+      "level": 7,
+      "return": 10.0
+    },
+    {
+      "level": 16,
+      "return": 10.0
+    },
+    {
+      "level": 150,
+      "return": 10.0
+    },
+    {
+      "level": 87,
+      "return": 10.0
+    },
+    {
+      "level": 152,
+      "return": 10.0
+    },
+    {
+      "level": 95,
+      "return": 10.0
+    },
+    {
+      "level": 27,
+      "return": 10.0
+    },
+    {
+      "level": 8,
+      "return": 10.0
+    },
+    {
+      "level": 102,
+      "return": 10.0
+    },
+    {
+      "level": 32,
+      "return": 10.0
+    },
+    {
+      "level": 48,
+      "return": 10.0
+    },
+    {
+      "level": 169,
+      "return": 10.0
+    },
+    {
+      "level": 175,
+      "return": 10.0
+    },
+    {
+      "level": 25,
+      "return": 0.0
+    },
+    {
+      "level": 181,
+      "return": 10.0
+    },
+    {
+      "level": 74,
+      "return": 0.0
+    },
+    {
+      "level": 127,
+      "return": 10.0
+    },
+    {
+      "level": 118,
+      "return": 10.0
+    },
+    {
+      "level": 109,
+      "return": 10.0
+    },
+    {
+      "level": 56,
+      "return": 10.0
+    },
+    {
+      "level": 128,
+      "return": 10.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 100,
+      "return": 0.0
+    },
+    {
+      "level": 177,
+      "return": 10.0
+    },
+    {
+      "level": 187,
+      "return": 10.0
+    },
+    {
+      "level": 80,
+      "return": 10.0
+    },
+    {
+      "level": 155,
+      "return": 10.0
+    },
+    {
+      "level": 192,
+      "return": 0.0
+    },
+    {
+      "level": 160,
+      "return": 10.0
+    },
+    {
+      "level": 12,
+      "return": 10.0
+    },
+    {
+      "level": 64,
+      "return": 0.0
+    },
+    {
+      "level": 146,
+      "return": 0.0
+    },
+    {
+      "level": 166,
+      "return": 10.0
+    },
+    {
+      "level": 84,
+      "return": 10.0
+    },
+    {
+      "level": 32,
+      "return": 10.0
+    },
+    {
+      "level": 194,
+      "return": 10.0
+    },
+    {
+      "level": 48,
+      "return": 10.0
+    },
+    {
+      "level": 160,
+      "return": 10.0
+    },
+    {
+      "level": 159,
+      "return": 10.0
+    },
+    {
+      "level": 173,
+      "return": 0.0
+    },
+    {
+      "level": 108,
+      "return": 10.0
+    },
+    {
+      "level": 151,
+      "return": 0.0
+    },
+    {
+      "level": 153,
+      "return": 10.0
+    },
+    {
+      "level": 76,
+      "return": 10.0
+    },
+    {
+      "level": 75,
+      "return": 10.0
+    },
+    {
+      "level": 189,
+      "return": 10.0
+    },
+    {
+      "level": 72,
+      "return": 0.0
+    },
+    {
+      "level": 88,
+      "return": 10.0
+    },
+    {
+      "level": 40,
+      "return": 10.0
+    },
+    {
+      "level": 24,
+      "return": 10.0
+    },
+    {
+      "level": 61,
+      "return": 10.0
+    },
+    {
+      "level": 30,
+      "return": 0.0
+    },
+    {
+      "level": 188,
+      "return": 10.0
+    },
+    {
+      "level": 15,
+      "return": 10.0
+    },
+    {
+      "level": 132,
+      "return": 10.0
+    },
+    {
+      "level": 138,
+      "return": 10.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 89,
+      "return": 10.0
+    },
+    {
+      "level": 72,
+      "return": 0.0
+    },
+    {
+      "level": 156,
+      "return": 0.0
+    },
+    {
+      "level": 140,
+      "return": 10.0
+    },
+    {
+      "level": 68,
+      "return": 0.0
+    },
+    {
+      "level": 197,
+      "return": 0.0
+    },
+    {
+      "level": 40,
+      "return": 10.0
+    },
+    {
+      "level": 36,
+      "return": 10.0
+    },
+    {
+      "level": 52,
+      "return": 10.0
+    },
+    {
+      "level": 107,
+      "return": 0.0
+    },
+    {
+      "level": 89,
+      "return": 10.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 139,
+      "return": 0.0
+    },
+    {
+      "level": 135,
+      "return": 10.0
+    },
+    {
+      "level": 42,
+      "return": 10.0
+    },
+    {
+      "level": 91,
+      "return": 10.0
+    },
+    {
+      "level": 122,
+      "return": 10.0
+    },
+    {
+      "level": 125,
+      "return": 10.0
+    },
+    {
+      "level": 112,
+      "return": 10.0
+    },
+    {
+      "level": 113,
+      "return": 10.0
+    },
+    {
+      "level": 21,
+      "return": 10.0
+    },
+    {
+      "level": 196,
+      "return": 10.0
+    },
+    {
+      "level": 3,
+      "return": 10.0
+    },
+    {
+      "level": 58,
+      "return": 10.0
+    },
+    {
+      "level": 135,
+      "return": 10.0
+    },
+    {
+      "level": 20,
+      "return": 10.0
+    },
+    {
+      "level": 137,
+      "return": 10.0
+    },
+    {
+      "level": 43,
+      "return": 10.0
+    },
+    {
+      "level": 79,
+      "return": 10.0
+    },
+    {
+      "level": 120,
+      "return": 10.0
+    },
+    {
+      "level": 54,
+      "return": 10.0
+    },
+    {
+      "level": 48,
+      "return": 10.0
+    },
+    {
+      "level": 71,
+      "return": 10.0
+    },
+    {
+      "level": 187,
+      "return": 10.0
+    },
+    {
+      "level": 155,
+      "return": 10.0
+    },
+    {
+      "level": 121,
+      "return": 0.0
+    },
+    {
+      "level": 122,
+      "return": 10.0
+    }
+  ]
+}
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "sum",
+    "groups": 1,
+    "seed": 1,
+    "steps": 1000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "test",
+    "eval_seed": 777,
+    "device": "cpu",
+    "output": "runs/coinrun-bc-3seed/sum-s1/test",
+    "checkpoint": "runs/coinrun-bc-3seed/sum-s1/model.pt"
+  },
+  "params": 661839,
+  "heldout_episode_ce": 2.190156594850123,
+  "rollout_mean_return": 6.145833333333333,
+  "rollout_episodes": [
+    {
+      "level": 1120822323,
+      "return": 10.0
+    },
+    {
+      "level": 1786040809,
+      "return": 0.0
+    },
+    {
+      "level": 2095712207,
+      "return": 10.0
+    },
+    {
+      "level": 239481816,
+      "return": 10.0
+    },
+    {
+      "level": 1551480350,
+      "return": 0.0
+    },
+    {
+      "level": 401439687,
+      "return": 0.0
+    },
+    {
+      "level": 1496584705,
+      "return": 10.0
+    },
+    {
+      "level": 1063894095,
+      "return": 0.0
+    },
+    {
+      "level": 52925380,
+      "return": 0.0
+    },
+    {
+      "level": 732110208,
+      "return": 0.0
+    },
+    {
+      "level": 634780702,
+      "return": 0.0
+    },
+    {
+      "level": 1955085032,
+      "return": 10.0
+    },
+    {
+      "level": 536144801,
+      "return": 10.0
+    },
+    {
+      "level": 1422629722,
+      "return": 0.0
+    },
+    {
+      "level": 1606235328,
+      "return": 0.0
+    },
+    {
+      "level": 1678186025,
+      "return": 10.0
+    },
+    {
+      "level": 318097934,
+      "return": 0.0
+    },
+    {
+      "level": 1597637627,
+      "return": 10.0
+    },
+    {
+      "level": 2091392327,
+      "return": 10.0
+    },
+    {
+      "level": 1406748718,
+      "return": 0.0
+    },
+    {
+      "level": 1513918109,
+      "return": 10.0
+    },
+    {
+      "level": 742959809,
+      "return": 10.0
+    },
+    {
+      "level": 163143328,
+      "return": 10.0
+    },
+    {
+      "level": 1771001132,
+      "return": 0.0
+    },
+    {
+      "level": 1394351900,
+      "return": 0.0
+    },
+    {
+      "level": 1689517977,
+      "return": 10.0
+    },
+    {
+      "level": 1903651987,
+      "return": 10.0
+    },
+    {
+      "level": 997352280,
+      "return": 10.0
+    },
+    {
+      "level": 1885100155,
+      "return": 10.0
+    },
+    {
+      "level": 1536300792,
+      "return": 10.0
+    },
+    {
+      "level": 1350768713,
+      "return": 10.0
+    },
+    {
+      "level": 1939940965,
+      "return": 10.0
+    },
+    {
+      "level": 1366219064,
+      "return": 0.0
+    },
+    {
+      "level": 1876994546,
+      "return": 0.0
+    },
+    {
+      "level": 1131082566,
+      "return": 10.0
+    },
+    {
+      "level": 1916869084,
+      "return": 10.0
+    },
+    {
+      "level": 190316232,
+      "return": 10.0
+    },
+    {
+      "level": 710360347,
+      "return": 10.0
+    },
+    {
+      "level": 1930909848,
+      "return": 10.0
+    },
+    {
+      "level": 1969339513,
+      "return": 10.0
+    },
+    {
+      "level": 1605670759,
+      "return": 10.0
+    },
+    {
+      "level": 544454773,
+      "return": 0.0
+    },
+    {
+      "level": 59922061,
+      "return": 10.0
+    },
+    {
+      "level": 1570372904,
+      "return": 0.0
+    },
+    {
+      "level": 803188153,
+      "return": 10.0
+    },
+    {
+      "level": 452708029,
+      "return": 10.0
+    },
+    {
+      "level": 1397517628,
+      "return": 10.0
+    },
+    {
+      "level": 1788416589,
+      "return": 10.0
+    },
+    {
+      "level": 721481025,
+      "return": 0.0
+    },
+    {
+      "level": 999032688,
+      "return": 10.0
+    },
+    {
+      "level": 1201891040,
+      "return": 10.0
+    },
+    {
+      "level": 80601177,
+      "return": 10.0
+    },
+    {
+      "level": 1563673414,
+      "return": 10.0
+    },
+    {
+      "level": 1125485383,
+      "return": 10.0
+    },
+    {
+      "level": 1300133388,
+      "return": 10.0
+    },
+    {
+      "level": 68471415,
+      "return": 0.0
+    },
+    {
+      "level": 397120532,
+      "return": 10.0
+    },
+    {
+      "level": 1714603538,
+      "return": 0.0
+    },
+    {
+      "level": 287162779,
+      "return": 0.0
+    },
+    {
+      "level": 1124238289,
+      "return": 10.0
+    },
+    {
+      "level": 532608272,
+      "return": 10.0
+    },
+    {
+      "level": 144461956,
+      "return": 0.0
+    },
+    {
+      "level": 1433862293,
+      "return": 0.0
+    },
+    {
+      "level": 1909365068,
+      "return": 0.0
+    },
+    {
+      "level": 1505747150,
+      "return": 10.0
+    },
+    {
+      "level": 1358530840,
+      "return": 10.0
+    },
+    {
+      "level": 1640719589,
+      "return": 10.0
+    },
+    {
+      "level": 1011315852,
+      "return": 0.0
+    },
+    {
+      "level": 1590925860,
+      "return": 10.0
+    },
+    {
+      "level": 726994489,
+      "return": 0.0
+    },
+    {
+      "level": 443354057,
+      "return": 10.0
+    },
+    {
+      "level": 2123069092,
+      "return": 10.0
+    },
+    {
+      "level": 1013738688,
+      "return": 0.0
+    },
+    {
+      "level": 205447595,
+      "return": 10.0
+    },
+    {
+      "level": 111165444,
+      "return": 10.0
+    },
+    {
+      "level": 1540843675,
+      "return": 10.0
+    },
+    {
+      "level": 311967725,
+      "return": 0.0
+    },
+    {
+      "level": 1647279265,
+      "return": 10.0
+    },
+    {
+      "level": 712359913,
+      "return": 0.0
+    },
+    {
+      "level": 492463174,
+      "return": 10.0
+    },
+    {
+      "level": 498910349,
+      "return": 0.0
+    },
+    {
+      "level": 1343779203,
+      "return": 0.0
+    },
+    {
+      "level": 1001787658,
+      "return": 10.0
+    },
+    {
+      "level": 401214535,
+      "return": 0.0
+    },
+    {
+      "level": 1874958020,
+      "return": 10.0
+    },
+    {
+      "level": 464469737,
+      "return": 0.0
+    },
+    {
+      "level": 724260843,
+      "return": 10.0
+    },
+    {
+      "level": 1223193479,
+      "return": 0.0
+    },
+    {
+      "level": 1296788073,
+      "return": 0.0
+    },
+    {
+      "level": 151900254,
+      "return": 0.0
+    },
+    {
+      "level": 861004048,
+      "return": 10.0
+    },
+    {
+      "level": 2101542671,
+      "return": 10.0
+    },
+    {
+      "level": 27918140,
+      "return": 10.0
+    },
+    {
+      "level": 1699434155,
+      "return": 10.0
+    },
+    {
+      "level": 1807346674,
+      "return": 0.0
+    },
+    {
+      "level": 981062722,
+      "return": 10.0
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 2000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "train",
+    "eval_seed": 777,
+    "device": "cpu",
+    "output": "runs/coinrun-direct-3seed/concat-direct-g3-s0/train",
+    "checkpoint": "runs/coinrun-direct-3seed/concat-direct-g3-s0/model.pt"
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.255682083312422,
+  "rollout_mean_return": 1.25,
+  "rollout_episodes": [
+    {
+      "level": 170,
+      "return": 0.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 7,
+      "return": 0.0
+    },
+    {
+      "level": 16,
+      "return": 0.0
+    },
+    {
+      "level": 150,
+      "return": 0.0
+    },
+    {
+      "level": 87,
+      "return": 0.0
+    },
+    {
+      "level": 152,
+      "return": 0.0
+    },
+    {
+      "level": 95,
+      "return": 0.0
+    },
+    {
+      "level": 27,
+      "return": 0.0
+    },
+    {
+      "level": 8,
+      "return": 10.0
+    },
+    {
+      "level": 102,
+      "return": 0.0
+    },
+    {
+      "level": 32,
+      "return": 0.0
+    },
+    {
+      "level": 48,
+      "return": 0.0
+    },
+    {
+      "level": 169,
+      "return": 0.0
+    },
+    {
+      "level": 175,
+      "return": 0.0
+    },
+    {
+      "level": 25,
+      "return": 0.0
+    },
+    {
+      "level": 181,
+      "return": 10.0
+    },
+    {
+      "level": 74,
+      "return": 0.0
+    },
+    {
+      "level": 127,
+      "return": 0.0
+    },
+    {
+      "level": 118,
+      "return": 0.0
+    },
+    {
+      "level": 109,
+      "return": 0.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 128,
+      "return": 0.0
+    },
+    {
+      "level": 179,
+      "return": 10.0
+    },
+    {
+      "level": 100,
+      "return": 0.0
+    },
+    {
+      "level": 177,
+      "return": 0.0
+    },
+    {
+      "level": 187,
+      "return": 0.0
+    },
+    {
+      "level": 80,
+      "return": 0.0
+    },
+    {
+      "level": 155,
+      "return": 0.0
+    },
+    {
+      "level": 192,
+      "return": 0.0
+    },
+    {
+      "level": 160,
+      "return": 0.0
+    },
+    {
+      "level": 12,
+      "return": 0.0
+    },
+    {
+      "level": 64,
+      "return": 0.0
+    },
+    {
+      "level": 146,
+      "return": 0.0
+    },
+    {
+      "level": 166,
+      "return": 0.0
+    },
+    {
+      "level": 84,
+      "return": 0.0
+    },
+    {
+      "level": 32,
+      "return": 0.0
+    },
+    {
+      "level": 194,
+      "return": 10.0
+    },
+    {
+      "level": 48,
+      "return": 0.0
+    },
+    {
+      "level": 160,
+      "return": 0.0
+    },
+    {
+      "level": 159,
+      "return": 0.0
+    },
+    {
+      "level": 173,
+      "return": 0.0
+    },
+    {
+      "level": 108,
+      "return": 0.0
+    },
+    {
+      "level": 151,
+      "return": 0.0
+    },
+    {
+      "level": 153,
+      "return": 0.0
+    },
+    {
+      "level": 76,
+      "return": 10.0
+    },
+    {
+      "level": 75,
+      "return": 0.0
+    },
+    {
+      "level": 189,
+      "return": 10.0
+    },
+    {
+      "level": 72,
+      "return": 0.0
+    },
+    {
+      "level": 88,
+      "return": 0.0
+    },
+    {
+      "level": 40,
+      "return": 0.0
+    },
+    {
+      "level": 24,
+      "return": 0.0
+    },
+    {
+      "level": 61,
+      "return": 10.0
+    },
+    {
+      "level": 30,
+      "return": 0.0
+    },
+    {
+      "level": 188,
+      "return": 0.0
+    },
+    {
+      "level": 15,
+      "return": 0.0
+    },
+    {
+      "level": 132,
+      "return": 0.0
+    },
+    {
+      "level": 138,
+      "return": 0.0
+    },
+    {
+      "level": 179,
+      "return": 10.0
+    },
+    {
+      "level": 89,
+      "return": 0.0
+    },
+    {
+      "level": 72,
+      "return": 0.0
+    },
+    {
+      "level": 156,
+      "return": 0.0
+    },
+    {
+      "level": 140,
+      "return": 0.0
+    },
+    {
+      "level": 68,
+      "return": 0.0
+    },
+    {
+      "level": 197,
+      "return": 0.0
+    },
+    {
+      "level": 40,
+      "return": 0.0
+    },
+    {
+      "level": 36,
+      "return": 0.0
+    },
+    {
+      "level": 52,
+      "return": 10.0
+    },
+    {
+      "level": 107,
+      "return": 0.0
+    },
+    {
+      "level": 89,
+      "return": 0.0
+    },
+    {
+      "level": 57,
+      "return": 0.0
+    },
+    {
+      "level": 139,
+      "return": 0.0
+    },
+    {
+      "level": 135,
+      "return": 0.0
+    },
+    {
+      "level": 42,
+      "return": 0.0
+    },
+    {
+      "level": 91,
+      "return": 0.0
+    },
+    {
+      "level": 122,
+      "return": 0.0
+    },
+    {
+      "level": 125,
+      "return": 0.0
+    },
+    {
+      "level": 112,
+      "return": 0.0
+    },
+    {
+      "level": 113,
+      "return": 0.0
+    },
+    {
+      "level": 21,
+      "return": 10.0
+    },
+    {
+      "level": 196,
+      "return": 0.0
+    },
+    {
+      "level": 3,
+      "return": 0.0
+    },
+    {
+      "level": 58,
+      "return": 0.0
+    },
+    {
+      "level": 135,
+      "return": 0.0
+    },
+    {
+      "level": 20,
+      "return": 0.0
+    },
+    {
+      "level": 137,
+      "return": 0.0
+    },
+    {
+      "level": 43,
+      "return": 10.0
+    },
+    {
+      "level": 79,
+      "return": 0.0
+    },
+    {
+      "level": 120,
+      "return": 0.0
+    },
+    {
+      "level": 54,
+      "return": 0.0
+    },
+    {
+      "level": 48,
+      "return": 0.0
+    },
+    {
+      "level": 71,
+      "return": 10.0
+    },
+    {
+      "level": 187,
+      "return": 0.0
+    },
+    {
+      "level": 155,
+      "return": 0.0
+    },
+    {
+      "level": 121,
+      "return": 0.0
+    },
+    {
+      "level": 122,
+      "return": 0.0
+    }
+  ]
+}

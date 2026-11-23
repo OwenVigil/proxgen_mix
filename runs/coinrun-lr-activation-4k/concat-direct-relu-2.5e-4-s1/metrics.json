@@ -1,0 +1,56 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 1,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s1",
+    "checkpoint": null,
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 2000
+  },
+  "params": 667983,
+  "mean_train_ce": 2.2801358699798584,
+  "train_seconds": 1113.4688121788204,
+  "train_windows": [
+    {
+      "from_step": 0,
+      "step": 1000,
+      "train_ce": 2.366299867630005,
+      "seconds": 274.80718581564724,
+      "samples_per_second": 116.44528109780582
+    },
+    {
+      "from_step": 1000,
+      "step": 2000,
+      "train_ce": 2.2822208404541016,
+      "seconds": 272.46428013406694,
+      "samples_per_second": 117.44658780319496
+    },
+    {
+      "from_step": 2000,
+      "step": 3000,
+      "train_ce": 2.2429075241088867,
+      "seconds": 272.9196931477636,
+      "samples_per_second": 117.25060815847623
+    },
+    {
+      "from_step": 3000,
+      "step": 4000,
+      "train_ce": 2.229135036468506,
+      "seconds": 293.2776530813426,
+      "samples_per_second": 109.11162055407127
+    }
+  ],
+  "heldout_episode_ce": 2.2301669544540346
+}

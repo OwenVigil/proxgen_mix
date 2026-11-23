@@ -1,0 +1,1370 @@
+step=100 loss=2.2845
+step=200 loss=2.3764
+step=300 loss=2.4692
+step=400 loss=2.3523
+step=500 loss=2.3960
+step=600 loss=2.1645
+step=700 loss=2.3850
+step=800 loss=2.2609
+step=900 loss=2.3681
+step=1000 loss=2.3268
+{"from_step": 0, "step": 1000, "train_ce": 2.3666481971740723, "seconds": 280.2377843335271, "samples_per_second": 114.18874180761779}
+step=1100 loss=2.1062
+step=1200 loss=2.4307
+step=1300 loss=2.3209
+step=1400 loss=2.3264
+step=1500 loss=2.2882
+step=1600 loss=2.1037
+step=1700 loss=2.1995
+step=1800 loss=2.3779
+step=1900 loss=2.2377
+step=2000 loss=2.3876
+{"from_step": 1000, "step": 2000, "train_ce": 2.275477886199951, "seconds": 277.79497583583, "samples_per_second": 115.19286806292428}
+step=2100 loss=2.3665
+step=2200 loss=2.1542
+step=2300 loss=2.2347
+step=2400 loss=2.0456
+step=2500 loss=2.0138
+step=2600 loss=2.3629
+step=2700 loss=2.2812
+step=2800 loss=2.3312
+step=2900 loss=2.2046
+step=3000 loss=1.9920
+{"from_step": 2000, "step": 3000, "train_ce": 2.2485625743865967, "seconds": 278.51921954005957, "samples_per_second": 114.89332783871824}
+step=3100 loss=2.1758
+step=3200 loss=2.4990
+step=3300 loss=2.4631
+step=3400 loss=2.2502
+step=3500 loss=2.0091
+step=3600 loss=2.2725
+step=3700 loss=2.3234
+step=3800 loss=2.3637
+step=3900 loss=2.2190
+step=4000 loss=2.2897
+{"from_step": 3000, "step": 4000, "train_ce": 2.2453830242156982, "seconds": 296.67855664901435, "samples_per_second": 107.86084562848136}
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0",
+    "checkpoint": null,
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 2000
+  },
+  "params": 667983,
+  "mean_train_ce": 2.284018039703369,
+  "train_seconds": 1133.230536358431,
+  "train_windows": [
+    {
+      "from_step": 0,
+      "step": 1000,
+      "train_ce": 2.3666481971740723,
+      "seconds": 280.2377843335271,
+      "samples_per_second": 114.18874180761779
+    },
+    {
+      "from_step": 1000,
+      "step": 2000,
+      "train_ce": 2.275477886199951,
+      "seconds": 277.79497583583,
+      "samples_per_second": 115.19286806292428
+    },
+    {
+      "from_step": 2000,
+      "step": 3000,
+      "train_ce": 2.2485625743865967,
+      "seconds": 278.51921954005957,
+      "samples_per_second": 114.89332783871824
+    },
+    {
+      "from_step": 3000,
+      "step": 4000,
+      "train_ce": 2.2453830242156982,
+      "seconds": 296.67855664901435,
+      "samples_per_second": 107.86084562848136
+    }
+  ],
+  "heldout_episode_ce": 2.2243624054826796
+}
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/val",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/model.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.2243624054826796,
+  "rollout_mean_return": 4.270833333333333,
+  "rollout_episodes": [
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 219,
+      "return": 10.0
+    },
+    {
+      "level": 247,
+      "return": 10.0
+    },
+    {
+      "level": 213,
+      "return": 0.0
+    },
+    {
+      "level": 213,
+      "return": 0.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 0.0
+    },
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 0.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 205,
+      "return": 0.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 249,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 247,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 244,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 0.0
+    },
+    {
+      "level": 244,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 212,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 227,
+      "return": 0.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 0.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 218,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 214,
+      "return": 0.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 231,
+      "return": 10.0
+    },
+    {
+      "level": 231,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 0.0
+    },
+    {
+      "level": 226,
+      "return": 10.0
+    },
+    {
+      "level": 232,
+      "return": 0.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 0.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 223,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 214,
+      "return": 0.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 223,
+      "return": 10.0
+    },
+    {
+      "level": 205,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 245,
+      "return": 0.0
+    }
+  ]
+}
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "train",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/train",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/model.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.2243624054826796,
+  "rollout_mean_return": 5.0,
+  "rollout_episodes": [
+    {
+      "level": 192,
+      "return": 0.0
+    },
+    {
+      "level": 86,
+      "return": 10.0
+    },
+    {
+      "level": 124,
+      "return": 0.0
+    },
+    {
+      "level": 119,
+      "return": 10.0
+    },
+    {
+      "level": 97,
+      "return": 10.0
+    },
+    {
+      "level": 13,
+      "return": 10.0
+    },
+    {
+      "level": 13,
+      "return": 10.0
+    },
+    {
+      "level": 96,
+      "return": 10.0
+    },
+    {
+      "level": 66,
+      "return": 0.0
+    },
+    {
+      "level": 140,
+      "return": 10.0
+    },
+    {
+      "level": 150,
+      "return": 10.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 14,
+      "return": 10.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 75,
+      "return": 10.0
+    },
+    {
+      "level": 142,
+      "return": 0.0
+    },
+    {
+      "level": 166,
+      "return": 10.0
+    },
+    {
+      "level": 107,
+      "return": 0.0
+    },
+    {
+      "level": 100,
+      "return": 0.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 61,
+      "return": 10.0
+    },
+    {
+      "level": 14,
+      "return": 10.0
+    },
+    {
+      "level": 143,
+      "return": 0.0
+    },
+    {
+      "level": 5,
+      "return": 0.0
+    },
+    {
+      "level": 38,
+      "return": 10.0
+    },
+    {
+      "level": 46,
+      "return": 0.0
+    },
+    {
+      "level": 185,
+      "return": 10.0
+    },
+    {
+      "level": 107,
+      "return": 0.0
+    },
+    {
+      "level": 93,
+      "return": 10.0
+    },
+    {
+      "level": 99,
+      "return": 10.0
+    },
+    {
+      "level": 57,
+      "return": 10.0
+    },
+    {
+      "level": 147,
+      "return": 0.0
+    },
+    {
+      "level": 151,
+      "return": 0.0
+    },
+    {
+      "level": 135,
+      "return": 10.0
+    },
+    {
+      "level": 102,
+      "return": 0.0
+    },
+    {
+      "level": 80,
+      "return": 10.0
+    },
+    {
+      "level": 124,
+      "return": 0.0
+    },
+    {
+      "level": 50,
+      "return": 0.0
+    },
+    {
+      "level": 53,
+      "return": 10.0
+    },
+    {
+      "level": 88,
+      "return": 10.0
+    },
+    {
+      "level": 11,
+      "return": 0.0
+    },
+    {
+      "level": 144,
+      "return": 0.0
+    },
+    {
+      "level": 114,
+      "return": 0.0
+    },
+    {
+      "level": 94,
+      "return": 10.0
+    },
+    {
+      "level": 174,
+      "return": 0.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 162,
+      "return": 0.0
+    },
+    {
+      "level": 86,
+      "return": 10.0
+    },
+    {
+      "level": 77,
+      "return": 10.0
+    },
+    {
+      "level": 90,
+      "return": 10.0
+    },
+    {
+      "level": 60,
+      "return": 10.0
+    },
+    {
+      "level": 80,
+      "return": 10.0
+    },
+    {
+      "level": 111,
+      "return": 0.0
+    },
+    {
+      "level": 75,
+      "return": 10.0
+    },
+    {
+      "level": 103,
+      "return": 10.0
+    },
+    {
+      "level": 187,
+      "return": 0.0
+    },
+    {
+      "level": 18,
+      "return": 0.0
+    },
+    {
+      "level": 53,
+      "return": 10.0
+    },
+    {
+      "level": 64,
+      "return": 0.0
+    },
+    {
+      "level": 46,
+      "return": 0.0
+    },
+    {
+      "level": 101,
+      "return": 0.0
+    },
+    {
+      "level": 86,
+      "return": 10.0
+    },
+    {
+      "level": 116,
+      "return": 0.0
+    },
+    {
+      "level": 157,
+      "return": 0.0
+    },
+    {
+      "level": 87,
+      "return": 0.0
+    },
+    {
+      "level": 22,
+      "return": 0.0
+    },
+    {
+      "level": 192,
+      "return": 0.0
+    },
+    {
+      "level": 93,
+      "return": 10.0
+    },
+    {
+      "level": 31,
+      "return": 0.0
+    },
+    {
+      "level": 181,
+      "return": 10.0
+    },
+    {
+      "level": 180,
+      "return": 0.0
+    },
+    {
+      "level": 178,
+      "return": 0.0
+    },
+    {
+      "level": 128,
+      "return": 10.0
+    },
+    {
+      "level": 126,
+      "return": 10.0
+    },
+    {
+      "level": 132,
+      "return": 10.0
+    },
+    {
+      "level": 22,
+      "return": 0.0
+    },
+    {
+      "level": 175,
+      "return": 10.0
+    },
+    {
+      "level": 193,
+      "return": 10.0
+    },
+    {
+      "level": 3,
+      "return": 10.0
+    },
+    {
+      "level": 101,
+      "return": 0.0
+    },
+    {
+      "level": 110,
+      "return": 10.0
+    },
+    {
+      "level": 23,
+      "return": 10.0
+    },
+    {
+      "level": 160,
+      "return": 10.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 64,
+      "return": 0.0
+    },
+    {
+      "level": 30,
+      "return": 0.0
+    },
+    {
+      "level": 178,
+      "return": 0.0
+    },
+    {
+      "level": 7,
+      "return": 0.0
+    },
+    {
+      "level": 152,
+      "return": 10.0
+    },
+    {
+      "level": 23,
+      "return": 10.0
+    },
+    {
+      "level": 105,
+      "return": 10.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 179,
+      "return": 0.0
+    },
+    {
+      "level": 130,
+      "return": 0.0
+    },
+    {
+      "level": 56,
+      "return": 0.0
+    },
+    {
+      "level": 95,
+      "return": 0.0
+    }
+  ]
+}
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "test",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/test",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/model.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.2243624054826796,
+  "rollout_mean_return": 5.9375,
+  "rollout_episodes": [
+    {
+      "level": 1894101945,
+      "return": 10.0
+    },
+    {
+      "level": 1335124286,
+      "return": 10.0
+    },
+    {
+      "level": 241887077,
+      "return": 10.0
+    },
+    {
+      "level": 1290056319,
+      "return": 0.0
+    },
+    {
+      "level": 750768050,
+      "return": 10.0
+    },
+    {
+      "level": 1293125366,
+      "return": 0.0
+    },
+    {
+      "level": 162704613,
+      "return": 0.0
+    },
+    {
+      "level": 802002049,
+      "return": 0.0
+    },
+    {
+      "level": 304676219,
+      "return": 0.0
+    },
+    {
+      "level": 1138295893,
+      "return": 10.0
+    },
+    {
+      "level": 880470903,
+      "return": 10.0
+    },
+    {
+      "level": 525329857,
+      "return": 0.0
+    },
+    {
+      "level": 826382814,
+      "return": 10.0
+    },
+    {
+      "level": 2054834256,
+      "return": 0.0
+    },
+    {
+      "level": 2000792228,
+      "return": 10.0
+    },
+    {
+      "level": 1714786295,
+      "return": 0.0
+    },
+    {
+      "level": 1105336319,
+      "return": 10.0
+    },
+    {
+      "level": 1659665660,
+      "return": 0.0
+    },
+    {
+      "level": 2034111853,
+      "return": 0.0
+    },
+    {
+      "level": 1215036010,
+      "return": 0.0
+    },
+    {
+      "level": 1465567261,
+      "return": 10.0
+    },
+    {
+      "level": 767474967,
+      "return": 10.0
+    },
+    {
+      "level": 2033187096,
+      "return": 10.0
+    },
+    {
+      "level": 1063137758,
+      "return": 10.0
+    },
+    {
+      "level": 1281910791,
+      "return": 0.0
+    },
+    {
+      "level": 565786846,
+      "return": 0.0
+    },
+    {
+      "level": 1352731185,
+      "return": 0.0
+    },
+    {
+      "level": 1965711660,
+      "return": 0.0
+    },
+    {
+      "level": 694971293,
+      "return": 0.0
+    },
+    {
+      "level": 1533033699,
+      "return": 0.0
+    },
+    {
+      "level": 134763810,
+      "return": 0.0
+    },
+    {
+      "level": 1104119500,
+      "return": 10.0
+    },
+    {
+      "level": 280384151,
+      "return": 10.0
+    },
+    {
+      "level": 621946888,
+      "return": 0.0
+    },
+    {
+      "level": 238316902,
+      "return": 10.0
+    },
+    {
+      "level": 999951080,
+      "return": 10.0
+    },
+    {
+      "level": 537180524,
+      "return": 0.0
+    },
+    {
+      "level": 173097603,
+      "return": 10.0
+    },
+    {
+      "level": 601458653,
+      "return": 10.0
+    },
+    {
+      "level": 99767041,
+      "return": 0.0
+    },
+    {
+      "level": 1978904011,
+      "return": 10.0
+    },
+    {
+      "level": 1216847097,
+      "return": 0.0
+    },
+    {
+      "level": 176207267,
+      "return": 10.0
+    },
+    {
+      "level": 166795647,
+      "return": 0.0
+    },
+    {
+      "level": 1251821127,
+      "return": 10.0
+    },
+    {
+      "level": 1598956532,
+      "return": 10.0
+    },
+    {
+      "level": 155985162,
+      "return": 10.0
+    },
+    {
+      "level": 1400416639,
+      "return": 0.0
+    },
+    {
+      "level": 1046776630,
+      "return": 10.0
+    },
+    {
+      "level": 1815824290,
+      "return": 0.0
+    },
+    {
+      "level": 1826833013,
+      "return": 10.0
+    },
+    {
+      "level": 1226280280,
+      "return": 10.0
+    },
+    {
+      "level": 1592972264,
+      "return": 0.0
+    },
+    {
+      "level": 1450362875,
+      "return": 10.0
+    },
+    {
+      "level": 1124187056,
+      "return": 0.0
+    },
+    {
+      "level": 1791729740,
+      "return": 10.0
+    },
+    {
+      "level": 653511371,
+      "return": 0.0
+    },
+    {
+      "level": 155126453,
+      "return": 10.0
+    },
+    {
+      "level": 714141817,
+      "return": 0.0
+    },
+    {
+      "level": 646503399,
+      "return": 0.0
+    },
+    {
+      "level": 63291501,
+      "return": 10.0
+    },
+    {
+      "level": 283414086,
+      "return": 10.0
+    },
+    {
+      "level": 275904716,
+      "return": 10.0
+    },
+    {
+      "level": 1802960757,
+      "return": 10.0
+    },
+    {
+      "level": 1094178240,
+      "return": 10.0
+    },
+    {
+      "level": 1051513622,
+      "return": 10.0
+    },
+    {
+      "level": 505105192,
+      "return": 0.0
+    },
+    {
+      "level": 1878271046,
+      "return": 10.0
+    },
+    {
+      "level": 747726231,
+      "return": 10.0
+    },
+    {
+      "level": 673590134,
+      "return": 10.0
+    },
+    {
+      "level": 1510808180,
+      "return": 10.0
+    },
+    {
+      "level": 221146131,
+      "return": 10.0
+    },
+    {
+      "level": 1176527881,
+      "return": 10.0
+    },
+    {
+      "level": 1918654126,
+      "return": 10.0
+    },
+    {
+      "level": 1953317332,
+      "return": 10.0
+    },
+    {
+      "level": 823846222,
+      "return": 0.0
+    },
+    {
+      "level": 228710775,
+      "return": 10.0
+    },
+    {
+      "level": 1302952746,
+      "return": 0.0
+    },
+    {
+      "level": 1011755356,
+      "return": 10.0
+    },
+    {
+      "level": 604143854,
+      "return": 10.0
+    },
+    {
+      "level": 996725510,
+      "return": 0.0
+    },
+    {
+      "level": 348454023,
+      "return": 0.0
+    },
+    {
+      "level": 613970113,
+      "return": 10.0
+    },
+    {
+      "level": 1108416732,
+      "return": 10.0
+    },
+    {
+      "level": 1952910464,
+      "return": 10.0
+    },
+    {
+      "level": 2090878783,
+      "return": 10.0
+    },
+    {
+      "level": 77129331,
+      "return": 0.0
+    },
+    {
+      "level": 1352618807,
+      "return": 10.0
+    },
+    {
+      "level": 442093305,
+      "return": 10.0
+    },
+    {
+      "level": 155619176,
+      "return": 0.0
+    },
+    {
+      "level": 765410858,
+      "return": 0.0
+    },
+    {
+      "level": 1247141256,
+      "return": 0.0
+    },
+    {
+      "level": 1633877179,
+      "return": 10.0
+    },
+    {
+      "level": 1782753930,
+      "return": 10.0
+    },
+    {
+      "level": 490855609,
+      "return": 10.0
+    },
+    {
+      "level": 960540248,
+      "return": 10.0
+    }
+  ]
+}
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 2000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/step-2000",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/model-2000.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.2747070658951998
+}
+completed runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0

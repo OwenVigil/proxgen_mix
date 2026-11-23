@@ -1,0 +1,7 @@
+__pycache__/
+/data/
+/runs/**
+!/runs/**/
+!/runs/**/*.json
+!/runs/**/*.csv
+!/runs/**/*.log

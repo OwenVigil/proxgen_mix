@@ -1,0 +1,411 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.00025,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "test",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/test",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-relu-2.5e-4-s0/model.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.2243624054826796,
+  "rollout_mean_return": 5.9375,
+  "rollout_episodes": [
+    {
+      "level": 1894101945,
+      "return": 10.0
+    },
+    {
+      "level": 1335124286,
+      "return": 10.0
+    },
+    {
+      "level": 241887077,
+      "return": 10.0
+    },
+    {
+      "level": 1290056319,
+      "return": 0.0
+    },
+    {
+      "level": 750768050,
+      "return": 10.0
+    },
+    {
+      "level": 1293125366,
+      "return": 0.0
+    },
+    {
+      "level": 162704613,
+      "return": 0.0
+    },
+    {
+      "level": 802002049,
+      "return": 0.0
+    },
+    {
+      "level": 304676219,
+      "return": 0.0
+    },
+    {
+      "level": 1138295893,
+      "return": 10.0
+    },
+    {
+      "level": 880470903,
+      "return": 10.0
+    },
+    {
+      "level": 525329857,
+      "return": 0.0
+    },
+    {
+      "level": 826382814,
+      "return": 10.0
+    },
+    {
+      "level": 2054834256,
+      "return": 0.0
+    },
+    {
+      "level": 2000792228,
+      "return": 10.0
+    },
+    {
+      "level": 1714786295,
+      "return": 0.0
+    },
+    {
+      "level": 1105336319,
+      "return": 10.0
+    },
+    {
+      "level": 1659665660,
+      "return": 0.0
+    },
+    {
+      "level": 2034111853,
+      "return": 0.0
+    },
+    {
+      "level": 1215036010,
+      "return": 0.0
+    },
+    {
+      "level": 1465567261,
+      "return": 10.0
+    },
+    {
+      "level": 767474967,
+      "return": 10.0
+    },
+    {
+      "level": 2033187096,
+      "return": 10.0
+    },
+    {
+      "level": 1063137758,
+      "return": 10.0
+    },
+    {
+      "level": 1281910791,
+      "return": 0.0
+    },
+    {
+      "level": 565786846,
+      "return": 0.0
+    },
+    {
+      "level": 1352731185,
+      "return": 0.0
+    },
+    {
+      "level": 1965711660,
+      "return": 0.0
+    },
+    {
+      "level": 694971293,
+      "return": 0.0
+    },
+    {
+      "level": 1533033699,
+      "return": 0.0
+    },
+    {
+      "level": 134763810,
+      "return": 0.0
+    },
+    {
+      "level": 1104119500,
+      "return": 10.0
+    },
+    {
+      "level": 280384151,
+      "return": 10.0
+    },
+    {
+      "level": 621946888,
+      "return": 0.0
+    },
+    {
+      "level": 238316902,
+      "return": 10.0
+    },
+    {
+      "level": 999951080,
+      "return": 10.0
+    },
+    {
+      "level": 537180524,
+      "return": 0.0
+    },
+    {
+      "level": 173097603,
+      "return": 10.0
+    },
+    {
+      "level": 601458653,
+      "return": 10.0
+    },
+    {
+      "level": 99767041,
+      "return": 0.0
+    },
+    {
+      "level": 1978904011,
+      "return": 10.0
+    },
+    {
+      "level": 1216847097,
+      "return": 0.0
+    },
+    {
+      "level": 176207267,
+      "return": 10.0
+    },
+    {
+      "level": 166795647,
+      "return": 0.0
+    },
+    {
+      "level": 1251821127,
+      "return": 10.0
+    },
+    {
+      "level": 1598956532,
+      "return": 10.0
+    },
+    {
+      "level": 155985162,
+      "return": 10.0
+    },
+    {
+      "level": 1400416639,
+      "return": 0.0
+    },
+    {
+      "level": 1046776630,
+      "return": 10.0
+    },
+    {
+      "level": 1815824290,
+      "return": 0.0
+    },
+    {
+      "level": 1826833013,
+      "return": 10.0
+    },
+    {
+      "level": 1226280280,
+      "return": 10.0
+    },
+    {
+      "level": 1592972264,
+      "return": 0.0
+    },
+    {
+      "level": 1450362875,
+      "return": 10.0
+    },
+    {
+      "level": 1124187056,
+      "return": 0.0
+    },
+    {
+      "level": 1791729740,
+      "return": 10.0
+    },
+    {
+      "level": 653511371,
+      "return": 0.0
+    },
+    {
+      "level": 155126453,
+      "return": 10.0
+    },
+    {
+      "level": 714141817,
+      "return": 0.0
+    },
+    {
+      "level": 646503399,
+      "return": 0.0
+    },
+    {
+      "level": 63291501,
+      "return": 10.0
+    },
+    {
+      "level": 283414086,
+      "return": 10.0
+    },
+    {
+      "level": 275904716,
+      "return": 10.0
+    },
+    {
+      "level": 1802960757,
+      "return": 10.0
+    },
+    {
+      "level": 1094178240,
+      "return": 10.0
+    },
+    {
+      "level": 1051513622,
+      "return": 10.0
+    },
+    {
+      "level": 505105192,
+      "return": 0.0
+    },
+    {
+      "level": 1878271046,
+      "return": 10.0
+    },
+    {
+      "level": 747726231,
+      "return": 10.0
+    },
+    {
+      "level": 673590134,
+      "return": 10.0
+    },
+    {
+      "level": 1510808180,
+      "return": 10.0
+    },
+    {
+      "level": 221146131,
+      "return": 10.0
+    },
+    {
+      "level": 1176527881,
+      "return": 10.0
+    },
+    {
+      "level": 1918654126,
+      "return": 10.0
+    },
+    {
+      "level": 1953317332,
+      "return": 10.0
+    },
+    {
+      "level": 823846222,
+      "return": 0.0
+    },
+    {
+      "level": 228710775,
+      "return": 10.0
+    },
+    {
+      "level": 1302952746,
+      "return": 0.0
+    },
+    {
+      "level": 1011755356,
+      "return": 10.0
+    },
+    {
+      "level": 604143854,
+      "return": 10.0
+    },
+    {
+      "level": 996725510,
+      "return": 0.0
+    },
+    {
+      "level": 348454023,
+      "return": 0.0
+    },
+    {
+      "level": 613970113,
+      "return": 10.0
+    },
+    {
+      "level": 1108416732,
+      "return": 10.0
+    },
+    {
+      "level": 1952910464,
+      "return": 10.0
+    },
+    {
+      "level": 2090878783,
+      "return": 10.0
+    },
+    {
+      "level": 77129331,
+      "return": 0.0
+    },
+    {
+      "level": 1352618807,
+      "return": 10.0
+    },
+    {
+      "level": 442093305,
+      "return": 10.0
+    },
+    {
+      "level": 155619176,
+      "return": 0.0
+    },
+    {
+      "level": 765410858,
+      "return": 0.0
+    },
+    {
+      "level": 1247141256,
+      "return": 0.0
+    },
+    {
+      "level": 1633877179,
+      "return": 10.0
+    },
+    {
+      "level": 1782753930,
+      "return": 10.0
+    },
+    {
+      "level": 490855609,
+      "return": 10.0
+    },
+    {
+      "level": 960540248,
+      "return": 10.0
+    }
+  ]
+}

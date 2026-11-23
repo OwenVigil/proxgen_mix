@@ -1,0 +1,69 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 2,
+    "seed": 1,
+    "steps": 8000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 777,
+    "device": "cpu",
+    "output": "runs/coinrun-direct-8k/concat-direct-g2-s1",
+    "checkpoint": null,
+    "warm_start": "runs/coinrun-direct-3seed/concat-direct-g2-s1/model.pt",
+    "start_step": 2000,
+    "snapshot_every": 2000
+  },
+  "params": 664911,
+  "mean_train_ce": 2.202583074569702,
+  "train_seconds": 1115.1182663794607,
+  "train_windows": [
+    {
+      "from_step": 2000,
+      "step": 3000,
+      "train_ce": 2.2296206951141357,
+      "seconds": 185.7403725683689,
+      "samples_per_second": 172.2834920459803
+    },
+    {
+      "from_step": 3000,
+      "step": 4000,
+      "train_ce": 2.2196974754333496,
+      "seconds": 184.64161136746407,
+      "samples_per_second": 173.30871282484247
+    },
+    {
+      "from_step": 4000,
+      "step": 5000,
+      "train_ce": 2.2117812633514404,
+      "seconds": 184.50943375192583,
+      "samples_per_second": 173.43286654396337
+    },
+    {
+      "from_step": 5000,
+      "step": 6000,
+      "train_ce": 2.202162265777588,
+      "seconds": 184.68841009959579,
+      "samples_per_second": 173.26479762722283
+    },
+    {
+      "from_step": 6000,
+      "step": 7000,
+      "train_ce": 2.1774821281433105,
+      "seconds": 187.11345797404647,
+      "samples_per_second": 171.01923264353627
+    },
+    {
+      "from_step": 7000,
+      "step": 8000,
+      "train_ce": 2.1747262477874756,
+      "seconds": 188.42498061805964,
+      "samples_per_second": 169.82886183687341
+    }
+  ],
+  "heldout_episode_ce": 2.178898150101304
+}

@@ -1,0 +1,153 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-smoke",
+    "mode": "sum",
+    "groups": 1,
+    "seed": 0,
+    "steps": 200,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "env": "coinrun",
+    "rollouts": 32,
+    "eval_split": "val",
+    "eval_seed": 777,
+    "device": "cpu",
+    "output": "runs/smoke-sum",
+    "checkpoint": null
+  },
+  "params": 661839,
+  "mean_train_ce": 2.319114923477173,
+  "train_seconds": 18.955480009317398,
+  "heldout_episode_ce": 2.2739290953613818,
+  "rollout_mean_return": 1.5625,
+  "rollout_episodes": [
+    {
+      "level": 220,
+      "return": 0.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 208,
+      "return": 0.0
+    },
+    {
+      "level": 248,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 0.0
+    },
+    {
+      "level": 227,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 246,
+      "return": 0.0
+    },
+    {
+      "level": 232,
+      "return": 0.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 208,
+      "return": 0.0
+    },
+    {
+      "level": 226,
+      "return": 10.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 238,
+      "return": 0.0
+    },
+    {
+      "level": 238,
+      "return": 0.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 218,
+      "return": 0.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 239,
+      "return": 0.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 222,
+      "return": 0.0
+    },
+    {
+      "level": 213,
+      "return": 0.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 220,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 248,
+      "return": 0.0
+    },
+    {
+      "level": 205,
+      "return": 0.0
+    }
+  ]
+}

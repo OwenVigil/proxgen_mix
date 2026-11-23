@@ -1,0 +1,411 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "add-deep",
+    "groups": 1,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.001,
+    "first_activation": "relu",
+    "env": "coinrun",
+    "rollouts": 96,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/add-deep-relu-1e-3-s0/val",
+    "checkpoint": "runs/coinrun-lr-activation-4k/add-deep-relu-1e-3-s0/model.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 668015,
+  "heldout_episode_ce": 2.139647639822215,
+  "rollout_mean_return": 5.625,
+  "rollout_episodes": [
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 219,
+      "return": 0.0
+    },
+    {
+      "level": 247,
+      "return": 10.0
+    },
+    {
+      "level": 213,
+      "return": 10.0
+    },
+    {
+      "level": 213,
+      "return": 10.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 10.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 10.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 205,
+      "return": 0.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 249,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 247,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 235,
+      "return": 0.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 200,
+      "return": 0.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 238,
+      "return": 10.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 244,
+      "return": 0.0
+    },
+    {
+      "level": 214,
+      "return": 10.0
+    },
+    {
+      "level": 244,
+      "return": 0.0
+    },
+    {
+      "level": 224,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 212,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 227,
+      "return": 10.0
+    },
+    {
+      "level": 240,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 211,
+      "return": 0.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 218,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 214,
+      "return": 10.0
+    },
+    {
+      "level": 246,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 236,
+      "return": 0.0
+    },
+    {
+      "level": 216,
+      "return": 10.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 237,
+      "return": 10.0
+    },
+    {
+      "level": 222,
+      "return": 10.0
+    },
+    {
+      "level": 242,
+      "return": 10.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 231,
+      "return": 10.0
+    },
+    {
+      "level": 231,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 0.0
+    },
+    {
+      "level": 226,
+      "return": 10.0
+    },
+    {
+      "level": 232,
+      "return": 0.0
+    },
+    {
+      "level": 222,
+      "return": 10.0
+    },
+    {
+      "level": 225,
+      "return": 10.0
+    },
+    {
+      "level": 243,
+      "return": 10.0
+    },
+    {
+      "level": 203,
+      "return": 10.0
+    },
+    {
+      "level": 201,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 223,
+      "return": 10.0
+    },
+    {
+      "level": 210,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 214,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 228,
+      "return": 0.0
+    },
+    {
+      "level": 207,
+      "return": 0.0
+    },
+    {
+      "level": 202,
+      "return": 10.0
+    },
+    {
+      "level": 223,
+      "return": 10.0
+    },
+    {
+      "level": 205,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 229,
+      "return": 10.0
+    },
+    {
+      "level": 230,
+      "return": 0.0
+    },
+    {
+      "level": 206,
+      "return": 0.0
+    },
+    {
+      "level": 245,
+      "return": 0.0
+    }
+  ]
+}

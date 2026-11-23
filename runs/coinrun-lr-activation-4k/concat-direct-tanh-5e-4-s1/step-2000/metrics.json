@@ -1,0 +1,24 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 1,
+    "steps": 2000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "first_activation": "tanh",
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-tanh-5e-4-s1/step-2000",
+    "checkpoint": "runs/coinrun-lr-activation-4k/concat-direct-tanh-5e-4-s1/model-2000.pt",
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 0
+  },
+  "params": 667983,
+  "heldout_episode_ce": 2.258100043050945
+}

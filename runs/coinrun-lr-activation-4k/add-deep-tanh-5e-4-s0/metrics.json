@@ -1,0 +1,56 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "add-deep",
+    "groups": 1,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "first_activation": "tanh",
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/add-deep-tanh-5e-4-s0",
+    "checkpoint": null,
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 2000
+  },
+  "params": 668015,
+  "mean_train_ce": 2.1961798667907715,
+  "train_seconds": 820.8770162239671,
+  "train_windows": [
+    {
+      "from_step": 0,
+      "step": 1000,
+      "train_ce": 2.2814688682556152,
+      "seconds": 206.56681760400534,
+      "samples_per_second": 154.91355470918344
+    },
+    {
+      "from_step": 1000,
+      "step": 2000,
+      "train_ce": 2.1995089054107666,
+      "seconds": 204.57411470077932,
+      "samples_per_second": 156.42252709637705
+    },
+    {
+      "from_step": 2000,
+      "step": 3000,
+      "train_ce": 2.1558191776275635,
+      "seconds": 204.64794544689357,
+      "samples_per_second": 156.36609461248682
+    },
+    {
+      "from_step": 3000,
+      "step": 4000,
+      "train_ce": 2.1479239463806152,
+      "seconds": 205.08813847228885,
+      "samples_per_second": 156.03047664467334
+    }
+  ],
+  "heldout_episode_ce": 2.1272745924070477
+}

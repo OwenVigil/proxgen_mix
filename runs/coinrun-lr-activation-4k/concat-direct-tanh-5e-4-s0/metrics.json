@@ -1,0 +1,56 @@
+{
+  "config": {
+    "data": "/opt/procgen-mixing-cache/coinrun-1M-expert",
+    "mode": "concat-direct",
+    "groups": 3,
+    "seed": 0,
+    "steps": 4000,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "first_activation": "tanh",
+    "env": "coinrun",
+    "rollouts": 0,
+    "eval_split": "val",
+    "eval_seed": 1777,
+    "device": "cpu",
+    "output": "runs/coinrun-lr-activation-4k/concat-direct-tanh-5e-4-s0",
+    "checkpoint": null,
+    "warm_start": null,
+    "start_step": 0,
+    "snapshot_every": 2000
+  },
+  "params": 667983,
+  "mean_train_ce": 2.267493486404419,
+  "train_seconds": 1147.306990062818,
+  "train_windows": [
+    {
+      "from_step": 0,
+      "step": 1000,
+      "train_ce": 2.3411641120910645,
+      "seconds": 282.4263573549688,
+      "samples_per_second": 113.3038725552823
+    },
+    {
+      "from_step": 1000,
+      "step": 2000,
+      "train_ce": 2.25783371925354,
+      "seconds": 283.01484007947147,
+      "samples_per_second": 113.06827582261869
+    },
+    {
+      "from_step": 2000,
+      "step": 3000,
+      "train_ce": 2.235145330429077,
+      "seconds": 285.58854929730296,
+      "samples_per_second": 112.04931037584217
+    },
+    {
+      "from_step": 3000,
+      "step": 4000,
+      "train_ce": 2.2358238697052,
+      "seconds": 296.2772433310747,
+      "samples_per_second": 108.00694525242909
+    }
+  ],
+  "heldout_episode_ce": 2.2171379677020013
+}
